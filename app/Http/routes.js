@@ -20,5 +20,5 @@ const Route = use('Route')
 Route.on('/').render('welcome');
 
 Route.get('/foo', function * (request, response) {
-  response.send('Hello');
+  response.send('X');
 });
